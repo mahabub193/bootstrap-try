@@ -1,0 +1,58 @@
+.service-section{}
+h6{
+    color: #6b6be8;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+h1{
+    text-transform: capitalize;
+    font-weight: 385px;
+    font-weight: 350;
+}
+.service,.feature{
+    padding: 20px;
+}
+.service img{}
+h3{
+    font-size: 25px;
+    padding: 20px 0px;
+}
+p{
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.feature-section,.partners-section{
+	padding: 100px 0px;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+	color: #6b6be8;;
+}
+
+.partners-section a{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 13px;
+    padding: 10px 20px;
+}
+.partners-section h1{
+    font-size: 59px;
+    font-weight: 700;
+}
+
+@media(max-width: 760px){
+	.partners-section h1{
+    font-size: 49px;
+    
+}
+.list-unstyled{
+	letter-spacing: 1px;
+}
